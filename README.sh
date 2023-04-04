@@ -1,4 +1,4 @@
 #!/bin/sh
-for file in ../domino/datasets/local/test_dataset/*; do
+for file in ../mnt/data/test_dataset*; do
     echo $file
 done
