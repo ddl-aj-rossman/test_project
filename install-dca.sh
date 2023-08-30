@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 KERNEL_NAME="dca_special_kernel"
 
@@ -11,4 +11,5 @@ pip install dominodatalab-data
 
 python -m ipykernel install --user --name=$KERNEL_NAME
 
+rm -rf KERNEL_NAME
 deactivate
