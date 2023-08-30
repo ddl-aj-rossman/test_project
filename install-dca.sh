@@ -12,4 +12,3 @@ pip install ipykernel
 python -m ipykernel install --user --name=$KERNEL_NAME
 
 deactivate
-rm -rf KERNEL_NAME
