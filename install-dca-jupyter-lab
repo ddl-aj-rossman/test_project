@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 KERNEL_NAME="dca_special_kernel"
 
