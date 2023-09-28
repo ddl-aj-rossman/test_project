@@ -6,7 +6,7 @@ python3 -m venv $KERNEL_NAME
 source $KERNEL_NAME/bin/activate
 
 pip install dominodatalab-data
-pip install domino-code-assist==1.4.0rc1
+pip install domino-code-assist==1.4.1
 pip install ipykernel
 pip install xgboost
 
